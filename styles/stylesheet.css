@@ -1,0 +1,33 @@
+body {
+    background-color: greenyellow;
+    text-align: center;
+}
+h1 {
+    color: red;
+    font-weight: 900;
+    font-size: 72px;
+}
+.menu-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.grid-container {
+    text-align: center;
+    display: grid;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid black;
+}
